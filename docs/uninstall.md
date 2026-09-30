@@ -6,4 +6,4 @@ Runtime workspaces are separate. Back up any durable notes/results you need, the
 
 No scheduler, launch agent, persistent daemon, new credential or global Router setting was created by this skill, so installation requires no such restoration. If the user separately granted session sharing or configured provider access, manage those independently through their owner controls; this skill must not revoke unrelated access automatically.
 
-The private GitHub repository and Library package are separate retained deliverables. Deleting or changing their access is a separate user-authorized action.
+The GitHub repository and Library package are separate retained deliverables. Deleting or changing their access is a separate user-authorized action.

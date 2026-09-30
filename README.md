@@ -4,9 +4,19 @@ A Codex skill for one coordinating dot and separate CLI model workers, routed th
 
 The installed live setup has completed a drafting worker, a different-model review, memory write/retrieval, and one Jev-selected local browser action with a verified postcondition. This repository contains the reusable skill and documentation, not private runtime notes or credentials.
 
+## Copy-paste setup
+
+Use the [complete setup prompt](skill/references/setup-prompt.md) to inspect/reuse existing components, bootstrap missing Router/Jev support, research model cost/evidence and verify the live workflow before starting your goal. Replace the goal, source and budget placeholders; the prompt preserves approvals and adapts to the actual host capabilities.
+
+## Architecture
+
+![Approved excerpts enter a coordinating dot in Codex; Jev selects bounded choices, CLI workers call Model Router, independent review checks results, and the host maintains local memory and optional verified computer actions.](docs/assets/architecture.svg)
+
+This is an independent project. The unchanged dots product-page icon identifies the referenced service only; [asset attribution and brand boundaries](docs/assets/README.md).
+
 ## Install
 
-Require Node.js 20+, an existing Model Router installation/provider, and Jev access. Clone this private repository using existing GitHub access, then copy `skill/` to a new `dots-agent-team` directory under a chosen project’s `.agents/skills/` or your Codex skills directory. Preserve any existing installation. No npm install, background service, schedule, new credential, or default-model change is required.
+Require Node.js 20+, an existing Model Router installation/provider, and Jev access. Clone this repository using available GitHub access, then copy `skill/` to a new `dots-agent-team` directory under a chosen project’s `.agents/skills/` or your Codex skills directory. Preserve any existing installation. No npm install, background service, schedule, new credential, or default-model change is required.
 
 ```sh
 # Run from the cloned repository. This example installs project-locally.
@@ -42,6 +52,7 @@ Sources are immutable hashed snapshots. Output includes readable `notes.md`, dur
 
 ## Documentation
 
+- [Copy-paste setup prompt](skill/references/setup-prompt.md)
 - [Skill workflow](skill/SKILL.md) and [install/run/auth setup](skill/references/setup.md)
 - [Architecture and lifecycle](docs/architecture.md)
 - [CLI contracts, handoff/resumption and memory](skill/references/contracts.md)

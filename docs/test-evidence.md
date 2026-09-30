@@ -9,6 +9,12 @@ Verified on 2026-09-30 against the installed skill and Model Router 0.5.1. Only 
 - 11 black-box forward-test checks passed after installation into a fresh isolated temporary project with an empty HOME. Separate CLI invocations exercised discovery, missing-auth messages, manual handoff, resumption/replay rejection, two distinct fixture worker processes, memory persistence and absent driver handling. These are **offline QA**, not live provider results.
 - Installed files matched the validated source files.
 
+## Public documentation checks
+
+The updated setup prompt passed the skill validator and the existing runtime/isolated forward checks. All local Markdown links resolved. The self-contained architecture SVG parsed as valid XML with accessible title/description, no executable markup or external images, and the unchanged official icon's SHA-256 matched its documented source. Browser rendering was inspected in light and dark colors and at 360-pixel display width.
+
+Before public publication, the complete reachable Git history and current tracked/package source were reviewed for credentials, private source data and machine-specific paths. The only credential-looking strings were exact, fictional negative-test inputs. The remote had only the intended main branch and no tags, releases or Actions artifacts. Private runtime records and screenshots remain outside the repository and distribution.
+
 ## Actual live workflow
 
 1. A direct TypeSafe Jev readiness check returned the observed decision model `jev-1.13.0`.

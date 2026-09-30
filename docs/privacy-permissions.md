@@ -10,4 +10,4 @@ Use existing authenticated adapters or privately supplied process environment cr
 
 Jev's choice/confidence is never approval. Apply host approval policy at actual action boundaries. Computer candidates must be fresh and valid; changed observations invalidate selections. Irreversible or approval-required actions need actual host authorization, never a model assertion.
 
-No schedule or background daemon is installed. Each CLI invocation runs bounded jobs and exits. The temporary local web test surface was stopped after verification. This repository's private publication is specifically user-authorized; it does not authorize unrelated repository changes, messages or public publishing.
+No schedule or background daemon is installed. Each CLI invocation runs bounded jobs and exits. The temporary local web test surface was stopped after verification. Publication and any later visibility change require explicit user authorization for this exact repository; neither authorizes unrelated repository changes, messages or publishing.

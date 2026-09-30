@@ -2,6 +2,10 @@
 
 The coordinating dot runs in Codex, reads this skill, scopes the task and obtains appropriate source/transmission approval. A dependency-free Node helper runs the deterministic state machine. Jev selects options; Model Router supplies actual model output through authenticated Responses. The host owns control flow, storage, tool permissions and verification.
 
+![Architecture: approved sources, coordinating host, Jev choices, separate workers through Model Router, independent review, durable local memory and optional verified computer actions.](assets/architecture.svg)
+
+The [SVG source](assets/architecture.svg) supports light/dark themes and mobile; [icon provenance](assets/README.md). The sequence below expands one task lifecycle.
+
 ```mermaid
 sequenceDiagram
   participant Dot as Coordinating Codex dot

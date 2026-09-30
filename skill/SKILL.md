@@ -9,6 +9,8 @@ Use Codex as the coordinating harness. Use one coordinating dot and separate CLI
 
 ## Install and setup
 
+For full fresh-machine setup or a reusable user prompt, read [setup-prompt.md](references/setup-prompt.md). Inspect/reuse current components first; install the exact requested Router repository only when absent, follow its current instructions and leave app restart to the user. Preserve defaults and login; require actual approval for new credential/access grants. Research current discovered model costs and compatible task evidence before selecting roles.
+
 Require Node.js 20+, Model Router with an already configured provider, and access to Jev. Copy the `dots-agent-team` folder into a project’s `.agents/skills/` or the user’s Codex skills directory. Preserve an existing installation; do not overwrite unrelated files. No npm dependencies are needed. Run:
 
 ```sh
