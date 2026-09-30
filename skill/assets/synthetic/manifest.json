@@ -1,0 +1,8 @@
+{
+  "sourceRoot": ".",
+  "sources": [
+    {"id":"notes","path":"project-notes.md","label":"Selected project notes","approved":true,"transmissionApproved":true},
+    {"id":"chat","path":"selected-chat.md","label":"Selected fictional chat excerpt","approved":true,"transmissionApproved":true}
+  ],
+  "tasks": [{"id":"scout","kind":"analyze","prompt":"Identify the documented unfinished work and suggest its next acceptance check. The notification delivery implementation is uninspected: classify its completion as unknown, not never-built. Distinguish evidence from suggestions."}]
+}

@@ -1,0 +1,1 @@
+{"query":"Keep the selected project’s explicitly unfinished work for a later handoff.","note":{"id":"empty-state","text":"Empty-state label is explicitly pending in the approved source snapshot.","evidence":[{"sourceId":"notes","quote":"TODO: Add the empty-state label before the next internal review."}]},"ttlDays":7,"fixtureChoice":"write_note"}
